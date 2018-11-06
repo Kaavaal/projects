@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Header</title>
+	<!--FONTAWESOME-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+	<!-- DEFAULT -->
+	<link rel="stylesheet" href="css/default.css">
+	<!--GOOGLE FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"> 
+
+	<!--GRID-->
+	<link rel="stylesheet" href="css/grid.css">
+	<!-- FLEX -->
+	<link rel="stylesheet" href="css/flex.css">
+
+	<link rel="stylesheet" href="css/normalize.css">
+
+		<!-- COMPONENTS -->
+	<link rel="stylesheet" href="css/components/btn.css">
+	<link rel="stylesheet" href="css/components/dropdown.css">
+	<link rel="stylesheet" href="css/components/pic-author.css">
+	
+
+	<!-- NORMALIZE -->
+	<link rel="stylesheet" href="css/normalize.css">
+	
+
+	<!--CSS-->
+	<link rel="stylesheet" href="css/components/slicknav.css">
+	<link rel="stylesheet" href="css/components/header2.css">
+	<link rel="stylesheet" href="css/components/header.css">
+	
+
+</head>
+<body class="front">
+	<header>
+		<div class="container header-top-2">
+			<div class="row align-items-center">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<span class="need-help">Need help?</span>
+				<span class="talk-expert"> Talk to an expert: +61 3 8376 6284</span>
+				<div class="dropdown reverse">
+				<div class="header-icon cart-icon dropdown-body"><i class="main fas fa-shopping-cart"></i></div>
+					<!-- Dropdown 3 start -->
+						<ul class="dropdown-hover icon-dropdown basket">
+	            		    <li>
+			                	<a href="" class="dropdown-a">
+				                	<span class="user-photo square">
+				                		<!-- TODO: INSERT PRODUCT IMAGE (IMG-SQUARE) -->
+										<img src="" alt="">
+									</span>
+									<span class="user-name">
+									<span class="about">Grand Ballet</span>
+									<span class="help">WordPress</span>
+									<span class="price">$59</span>
+									</span>
+								</a>
+			                </li>
+							<li>
+			                	<a href="" class="dropdown-a">
+				                	<span class="user-photo square">
+				                		<!-- TODO: INSERT PRODUCT IMAGE (IMG-SQUARE) -->
+										<img src="" alt="">
+									</span>
+									<span class="user-name">
+										<span class="about">Apple Device</span>
+										<span class="help">WordPress</span>
+										<span class="price">$59</span>
+									</span>
+								</a>
+			                </li>
+			                <li>
+			                	<div class="dropdown-a dropdown-btn">
+			                		<div class="total">
+				                		<span class="total-text">Total</span>
+				                		<span>$118</span>
+				                	</div>
+			                		<a href="#" class="btn btn-s btn-s-1 btn-green">Go to Cart</a>
+									<a href="#" class="btn btn-s btn-s-2 btn-red">Go to Checkout</a>
+								</div>
+			                </li>
+			            </ul>
+			       </div>
+				<button class="modal-login-open btn btn-xs btn-green">Login</button>
+				<a class="btn btn-xs btn-red" href="">Register</a>
+			</div>
+		</div>
+		<div class="container-fluid header-nav no-padds">
+			<div class="container">
+				<div class="row">
+					<nav>
+						<ul>
+							<li><a href="">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">WordPress</a></li>
+							<li><a href="">Joomla</a></li>
+							<li><a href="">PSD</a></li>
+							<li><a href="">Plugins</a></li>
+							<li><a href="">Components</a></li>
+							<li><a href="">Pages</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href="">Help</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>	
+	<section class="search-sect">
+		<div class="container-fluid no-padds">
+			<h1>Welcome To Foxtar Market Place!</h1>
+			<h3>Premium WordPress Themes, Web Templates and Many More...</h3>
+			<form>
+				<input type="text" placeholder="Search Your Keywords...">
+				<button type="submit" class="search-icon"><i class="fas fa-search"></i></button>
+			</form>
+		</div>
+	</section>
+	<!-- MODAL -->
+	<div class="modal-container">
+	    <div id="modal-form-login" class="modal-form">
+	        <form onsubmit="logIn()">
+	            <h1>Login</h1>
+	            <input type="text" placeholder="Name" name="user-name">
+	            <input type="password" placeholder="Password" name="user-password">
+	            <button class="btn" type="submit">Submit</button>
+	            <a class="btn btn-account" href=""><i class="fas fa-edit"></i>Create An Account?</a>
+	            <a class="lost" href="">Lost Password?</a>
+	        </form>
+	    </div>
+    </div>
+
+	<!-- Скрипт модалки -->
+<!--	<script type="text/javascript">
+		    //Form variables
+		    var modal_form = document.getElementById("modal-form-login");
+		    var _form = modal_form.children[0];
+		    var _name = _form.children[1];
+		    var _pass = _form.children[2];
+
+
+			function logIn(){
+			    if(_name.value === "admin" && _pass.value === "12345"){
+			        console.log("YOU ARE NOW LOGGED IN");
+			        alert("YOU ARE NOW LOGGED IN");
+			    }
+			}
+	</script>-->
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/init.js"></script>
+</body>
+</html>

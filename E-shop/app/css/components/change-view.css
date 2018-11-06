@@ -1,0 +1,25 @@
+.display-switch{
+	color: #90a4ae;
+}
+
+.active{
+	color: #8bc34a;
+}
+
+.display-switch i:hover{
+	color: #8bc34a; 
+	-webkit-transition: color .3s; 
+	transition: color .3s;
+}
+
+.display-switch i{
+	cursor: pointer;
+}
+
+.fa-th-large{
+	
+}
+
+.fa-th-list{
+
+}

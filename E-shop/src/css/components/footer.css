@@ -1,0 +1,174 @@
+﻿*{
+    	font-family: 'Roboto', sans-serif;	
+}
+
+footer {
+	background-color: #263238;
+	color: #b7c3c8;
+	font-size: 15px;
+}
+
+footer .footer-menu {
+	padding-top: 120px;
+}
+
+footer .footer-menu > div {
+	padding-bottom: 100px;
+}
+
+footer .copyright {
+	border-top: 1px solid #424d53;
+	color: #808689;
+	text-align: center;
+	padding-top: 30px;
+}
+    
+
+footer h2 {
+	position: relative;
+	padding-bottom: 28px;
+	margin-bottom: 30px;
+	font-size: 22px;
+	color:#fff;
+
+}
+
+footer h2::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 51px;
+	background: #8bc34a;
+}
+
+footer h3 {font-size: 20px;
+	color:#fff;
+	padding-bottom: 22px;
+}
+
+footer p {
+	line-height: 1.6;
+	padding-bottom: 35px;
+}
+
+footer .contact {
+	padding-bottom: 25px; 
+	font-size:14px; 
+}
+
+footer .contact > a {
+	color: #fff; 
+	display: inline-block; 
+	width: 80%;
+	line-height: 1.7;
+}
+
+footer .contact > a:hover {
+	color: #729e4c; 
+}
+
+footer .phone-link {
+	padding-left: 15px;
+}
+
+footer .map-link {
+	padding-left: 20px;
+}
+
+footer .fas {
+	color: #729e4c; 
+	display:inline-block;
+}
+
+footer .fa-phone {
+	transform: rotate(90deg);
+}
+
+footer .fa-map-marker-alt {
+	vertical-align: top; 
+	margin-top:3px;
+}
+
+footer nav > ul{
+	padding: 0;
+	list-style: none;
+}
+
+footer nav ul a{
+	text-decoration: none;
+	color: #b7c3c8;
+}
+
+footer nav li{
+	margin-top: 25px;
+}
+
+footer nav i{
+	color: #a2cf6e;
+	margin-right: 12px;
+}
+
+footer .social-icons {
+	margin: 35px 0 40px 0;
+}
+
+footer .social-icons .icon+.icon {
+	margin-left: 7px;
+}
+
+footer form {
+	position: relative; 
+	border-top: 1px solid black;
+}
+
+footer input {
+	background-color: #2f3c43;
+	border: none;
+	width: 100%;
+	height: 39px;
+	padding-left: 15px;
+	font-size: 14px;
+	color: #fff;
+}
+
+footer input {outline:none;}
+
+footer .input-btn {
+	border-radius: 0;
+	padding: 12px 14px;
+	margin-left: 0;
+	font-size: 14px;
+	position: absolute;
+	right: 1px;
+	top: 0;
+	cursor: pointer;
+}
+
+footer .fa-location-arrow {
+	color: #fff;
+}
+
+footer .shadow {
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-image: 
+	-webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+	-webkit-border-image: 
+	-webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+	-moz-border-image:
+	-moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;    
+	-o-border-image:
+	-o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+	border-image:
+	linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+@media (max-width: 575px) {
+	footer .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

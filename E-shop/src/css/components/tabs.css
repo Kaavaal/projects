@@ -1,0 +1,190 @@
+
+/*СКОБКИ*/ 
+span.brackets::before {
+	content: '(';
+}
+span.brackets::after {
+	content: ')';
+}
+
+/*Сверху два дополнительных класса для облегчения читабельности кода*/
+/*1 teg для главной страницы*/
+/*Общие классы для всех табов Начало*/
+.hidden-element {
+    display: none;
+}
+
+.display-line .hidden-element {
+    display: block;
+}
+
+.fade,
+.show {
+	transition: opasity .3s;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+	display: block;
+}
+/*Общие классы для всех табов Конец*/
+.check-out-tabs {
+	padding-bottom: 59px;
+}
+
+.check-out-tabs li + li {
+	margin-left: 6px;
+}
+
+.check-out-tabs li a {
+	font-size: 14px;
+	font-weight: 500;
+	color: #263238;
+	background: #fff;
+ 	padding: 10px 21px 11px;
+ 	transition: all 0.3s;
+}
+
+.check-out-tabs li a:hover,
+.check-out-tabs li a:focus {
+	background: #e74c3c;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	color: #fff;
+	padding: 10px 21px 11px;
+}
+
+.check-out-tabs > li > a.active,
+.check-out-tabs > li > a.active:focus,
+.check-out-tabs > li > a.active:hover {
+	background: #e74c3c;
+	color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	padding: 10px 21px 11px;
+}
+
+/*Общие стили для табов с полоской*/
+.tabs li a {
+	display: block;
+	width: 100%;
+	color: rgba(38, 50, 56, 0.5);
+	line-height: 1;
+	position: relative;
+	transition: color 0.3s;
+}
+
+.tabs li a::after {
+	position: absolute;
+	content: '';
+	display: block;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0%;
+	background: #8bc34a;
+	transition: width linear 0.3s;
+} 
+
+.tabs li a:hover::after,
+.tabs li a:focus::after {
+	width: 100%;
+}
+
+.tabs > li > a.active::after {
+	position: absolute;
+	content: '';
+	display: block;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0%;
+	background: #8bc34a;
+	width: 100%;
+}
+.tabs li a:hover,
+.tabs li a:focus {
+	color: rgba(38, 50, 56, 1);
+	font-weight: 500;
+}
+
+.tabs > li > a.active,
+.tabs > li > a.active:focus,
+.tabs > li > a.active:hover {
+	color: rgba(38, 50, 56, 1);
+	font-weight: 500;
+}
+
+/*2 teg для страницы товара*/
+.product-page-tabs {
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.product-page-tabs li {
+	width: 25%;
+}
+
+.product-page-tabs li + li a {
+	border-left: 1px solid #d7d7d7;
+}
+
+.product-page-tabs li a {
+	padding: 21px 0;
+	font-size: 16px;
+	font-weight: 400;
+	border-bottom: 1px solid #d7d7d7;
+	text-align: center;
+}
+
+/*Tабы для Aside колонкой*/
+.aside {
+	width: 270px;
+} /*Для вида. добавлять не надо*/
+
+.aside-tabs {
+	width: 100%;
+	border: 1px solid #d7d7d7;
+	background: #fff;
+}
+.aside-tabs li + li a {
+	border-top: 1px solid #d7d7d7;
+}
+.aside-tabs li a {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 17px 0 18px;
+}
+
+.aside-tabs li a::after {
+	height: 2px;
+}
+.aside-tabs > li.active > a::after {
+	height: 2px;
+}
+
+.aside-tabs i {
+	margin-left: 22px;
+	margin-right: 14px;
+	color: #d0d0d0;
+}
+
+.aside-tabs > li a.active i {
+	color: #8bc34a;
+}
+
+.aside-tabs li a:hover i,
+.aside-tabs li a:focus i {
+	color: #8bc34a;
+}
+
+

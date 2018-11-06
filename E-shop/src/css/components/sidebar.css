@@ -1,0 +1,155 @@
+
+/*Для лучшего тестирования */
+body{
+	background-color: #f4f6f5;
+	font-family: Roboto;
+}
+
+
+.categories nav{
+	font-size: 15px;
+}
+
+.categories nav{
+	font-size: 15px;
+}
+
+.sidebar-content{
+	padding: 0 30px;
+}
+
+.sidebar-sect{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	margin-bottom: 30px;
+}
+
+.sidebar-content h2{
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 60px;
+	border-bottom: 1px solid #dde3e8;
+}
+
+
+.categories nav > ul{
+	padding: 0;
+	list-style: none;
+
+}
+
+.categories nav ul a{
+	text-decoration: none;
+	color: #263238;
+}
+
+.categories nav li{
+	margin-top: 29px;
+}
+
+.categories nav ul:last-child{
+	margin-bottom: 45px;
+}
+
+.categories nav i{
+	color: #a2cf6e;
+	margin-right: 13px;
+
+}
+
+.categories .grey-info{
+	float: right;
+	color: #90a4ae;
+	font-size: 15px;
+
+}
+
+.categories .grey-info:before{
+	content: '(';
+	font-size: 15px;
+}
+
+.categories .grey-info:after{
+	content: ')';
+	font-size: 15px;
+}
+
+
+
+.top-sellers .seller-product{
+	border-bottom: 1px solid #dde3e8;
+	margin-top: 28px;
+}
+
+.top-sellers h3{
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 700;
+	margin-top: 21px;
+	margin-bottom: 13px;
+
+}
+
+.top-sellers h4{
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-weight: 700;
+	color: #8bc34a;
+	margin-bottom: 20px;
+}
+
+.top-sellers .author-info{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 28px;
+}
+
+.top-sellers .img-circle{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #b5b5b5;
+}
+
+.top-sellers .author-name{
+	font-size: 14px;
+	font-family: Roboto;
+	font-weight: 500;
+	color: #546e7a;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+	margin-left: 14px;
+	margin-top: 7px;
+}
+
+.top-sellers .product-price{
+	font-size: 16px;
+	font-family: Roboto;
+	font-weight: 700;
+	float: right;
+	-webkit-transform: translateY(-25px);
+	transform: translateY(-25px);
+}
+
+
+/*Паддинги для кнопок*/
+.btn-side{
+	padding-top: 18px;
+	padding-bottom: 16px;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	margin-bottom: 31px;
+}
+
+.star-rating{
+	font-size: 12px;
+	color: #ffa726;
+	margin-left: auto;
+}

@@ -1,0 +1,31 @@
+.breadcrumb {
+    background-color: inherit;
+    margin-bottom: 0;
+    padding: 51px 0 43px 0;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+}
+
+.breadcrumb-item +.breadcrumb-item::before {
+    padding-right: 8px;
+    padding-left: 8px;
+    color: #8bc34a;
+    content: "-";
+}
+
+.breadcrumb a, .breadcrumb a:focus {
+    color: #8b9aa1;
+}
+
+.breadcrumb a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #000;
+}

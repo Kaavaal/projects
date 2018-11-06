@@ -1,0 +1,36 @@
+/*TEST START*/
+.test{
+    font-size: 24px;
+}
+/*TEST END*/
+
+section.sect-style{
+    padding: 120px 0 110px;
+}
+
+.search-general{
+    background-color: #b5b5b5;
+    background-image: url(../../img/background-image.png);
+}
+
+.search-main{
+    padding: 150px 0 165px;
+}
+
+.search{
+    max-height: 230px;
+    padding: 60px 0 65px;
+}
+
+.off-white{
+    background-color: #f4f6f5;
+}
+
+.swamp{
+    background-color: #263238;
+}
+
+.after-breadcrumbs{
+    padding: 0 0 140px;
+    background: #f4f6f5;
+}

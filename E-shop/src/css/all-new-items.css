@@ -1,0 +1,60 @@
+@media(max-width:1199px) {
+    .change-display .product-card.top-sellers .author-info {
+        flex-wrap: wrap;
+    }
+    
+    .col-12.change-display .product-card.top-sellers .author-info .rate{
+        margin-left: auto;
+    }
+    
+    .col-12.change-display .product-card.top-sellers .author-info .far{
+        margin-right: 0;
+    } 
+    
+    .col-12.change-display .product-card.top-sellers .author-info .delimiter{
+        margin: 0 10px;
+    }
+}
+
+@media(max-width:991px){
+    .col-12.change-display .product-card.top-sellers .author-info .likes{
+        display: none;
+    }
+    
+    .col-12.change-display .product-card.top-sellers .author-info{
+        margin-bottom: 15px;
+    }
+    
+    .col-12.change-display .product-card.top-sellers .sales{
+        float: none;
+        margin-top: 10px;
+    }
+    
+    .col-12.change-display .product-card.top-sellers .description{
+        line-height: 24px;
+    }
+}
+
+@media(max-width:767px) {
+    .change-display .product-card.top-sellers .author-info .author-name,
+    .change-display .product-card.top-sellers .author-info .quantity {
+        font-size: 14px;
+    }
+
+    .change-display .product-card.top-sellers .author-info {
+        flex-wrap: wrap;
+    }
+
+    .change-display .product-card.top-sellers .author-info .rate {
+        /*        margin-right: -50px;*/
+        /*        display: block;*/
+    }
+}
+
+@media(max-width:479px) {
+    .change-display .product-card.top-sellers .author-info .rate,
+    .change-display .product-card.top-sellers .author-info .quantity {
+        /*        margin-right: -40px;*/
+        display: block;
+    }
+}

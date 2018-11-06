@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foxtar | Market Place</title>
+
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+    <!--  GRID  -->
+    <link href="css/grid.css" rel="stylesheet">
+
+    <!--  COMPONENTS product-card  -->
+    <link rel="stylesheet" href="css/components/product-card.css">
+    <link rel="stylesheet" href="css/components/change-view.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--  This CSS  -->
+    <link rel="stylesheet" href="css/all-new-items.css">
+
+
+</head>
+
+<body class="display-grid d-flex flex-column column-left">
+    <header>
+        <section class="header-top-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <span class="need-help">Need help?</span>
+                <span class="talk-expert"> Talk to an expert: +61 3 8376 6284</span>
+                <div class="dropdown-items d-flex align-items-center">
+                    <div class="dropdown reverse">
+                        <div class="header-icon notif-icon dropdown-body"><i class="main far fa-bell"></i></div>
+                    <!-- Dropdown 1 Start -->
+                            <div class="dropdown-hover icon-dropdown bell">
+                                <ul>
+                                    <li>
+                                        <a href="" class="dropdown-a">
+                                            <span class="user-photo circle-md">
+                                                <!-- TODO: INSERT AVATAR IMAGE (IMG-ROUND) -->
+                                                <img src="img/author-1.jpg" alt="">
+                                            </span>
+                                            <span class="user-name">
+                                            <span class="help">Need WP Help!</span>
+                                            <span class="data">01 Dec, 2016</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-a">
+                                            <span class="user-photo circle-md">
+                                                <!-- TODO: INSERT AVATAR IMAGE (IMG-ROUND) -->
+                                                <img src="img/author-2.jpg" alt="">
+                                            </span>
+                                            <span class="user-name">
+                                                <span class="help">Need WP Help!</span>
+                                                <span class="data">26 Nov, 2016</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-a">
+                                            <span class="user-photo circle-md">
+                                                <!-- TODO: INSERT AVATAR IMAGE (IMG-ROUND) -->
+                                                <img src="img/author-3.jpg" alt="">
+                                            </span>
+                                            <span class="user-name">
+                                                <span class="help">Psd Template Help!</span>
+                                                <span class="data">26 Nov, 2016</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                      <!-- Dropdown 1 end -->
+                    <div class="dropdown reverse">
+                    <div class="header-icon msg-icon dropdown-body"><i class="main far fa-envelope"></i></div>
+                    <!-- Dropdown 2 start -->
+                        <div class="dropdown-hover icon-dropdown message">
+                            <ul>
+                                <li>
+                                    <a href="" class="dropdown-a">
+                                        <span class="user-photo circle-md">
+                                            <!-- TODO: INSERT AVATAR IMAGE (IMG-ROUND) -->
+                                            <img src="img/author-4.jpg" alt="">
+                                        </span>
+                                        <span class="user-name">
+                                        <span class="name">Kazi Faxim</span>
+                                        <span class="help">Need WP Help!</span>
+                                        <span class="data">01 Dec, 2016</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-a">
+                                        <span class="user-photo circle-md">
+                                            <!-- TODO: INSERT AVATAR IMAGE (IMG-ROUND) -->
+                                            <img src="img/author-4.jpg" alt="">
+                                        </span>
+                                        <span class="user-name">
+                                            <span class="name">Richi Lenal</span>
+                                            <span class="help">Need WP Help!</span>
+                                            <span class="data">26 Nov, 2016</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-a reset">
+                                        <span class="user-photo circle-md">
+                                            <!-- TODO: INSERT AVATAR IMAGE (IMG-ROUND) -->
+                                            <img src="img/author-5.jpg" alt="">
+                                        </span>
+                                        <span class="user-name">
+                                            <span class="name">PsdBosS</span>
+                                            <span class="help">NPsd Template Help!</span>
+                                            <span class="data">26 Nov, 2016</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                        <!-- Dropdown 2 end -->
+                    <div class="dropdown reverse">
+                    <div class="header-icon cart-icon dropdown-body"><i class="main fas fa-shopping-cart"></i></div>
+                        <!-- Dropdown 3 start -->
+                        <div class="dropdown-hover icon-dropdown basket">
+                            <ul>
+                                <li>
+                                    <a href="" class="dropdown-a">
+                                        <span class="user-photo square">
+                                            <!-- TODO: INSERT PRODUCT IMAGE (IMG-SQUARE) -->
+                                            <img src="img/product_cards/pc11.jpg" alt="" style="height: inherit">
+                                        </span>
+                                        <span class="user-name">
+                                        <span class="about">Grand Ballet</span>
+                                        <span class="help">WordPress</span>
+                                        <span class="price">$59</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-a">
+                                        <span class="user-photo square">
+                                            <!-- TODO: INSERT PRODUCT IMAGE (IMG-SQUARE) -->
+                                            <img src="img/product_cards/pc22.jpg" alt="" style="height: inherit">
+                                        </span>
+                                        <span class="user-name">
+                                            <span class="about">Apple Device</span>
+                                            <span class="help">WordPress</span>
+                                            <span class="price">$59</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-a dropdown-btn">
+                                        <div class="total">
+                                            <span class="total-text">Total</span>
+                                            <span>$118</span>
+                                        </div>
+                                        <a href="#" class="btn btn-s btn-s-1 btn-green">Go to Cart</a>
+                                        <a href="#" class="btn btn-s btn-s-2 btn-red">Go to Checkout</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Dropdown 3 end -->
+                    <!-- Dropdown 4 start -->
+                    <div class="dropdown reverse">
+                        <div class="user-balance dropdown-body">
+                            <div class="user-photo circle-sm">
+                                <img src="img/author-2.jpg" alt="">
+                        <!-- TODO: INSERT AVATAR IMAGE (IMG-ROUND) -->
+                            </div>
+                            <div class="user-about">
+                                <span class="name">Mike Hussy</span>
+                                <span class="balance">$171.00</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="dropdown-hover icon-profile">
+                            <ul>
+                                <li><a href="profile-details.html"><i class="fas fa-angle-right"></i>Profile Page</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Portfolio</a></li>
+                                <li><a href="settings.html"><i class="fas fa-angle-right"></i>Account Setting</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Downloads</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Wishlist</a></li>
+                                <li><a href="upload_products.html"><i class="fas fa-angle-right"></i>Upload Item</a></li>
+                                <li><a href="sales-statement.html"><i class="fas fa-angle-right"></i>Statement</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Withdraws</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dropdown 4 end -->
+                <a class="btn btn-xs btn-red align-self-center" href="">Logout</a>
+            </div>
+        </div>
+        </section>
+        <div class="container-fluid header-nav no-padds">
+            <div class="container">
+                <div class="row">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About</a></li>
+                            <li><a href="product-details.html">WordPress</a></li>
+                            <li><a href="product-details.html">Joomla</a></li>
+                            <li><a href="product-details.html">PSD</a></li>
+                            <li><a href="">Plugins</a></li>
+                            <li><a href="">Components</a></li>
+                            <li><a href="">Pages</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="">Help</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+        <!-- SECTION WITH SEARCH -->
+    <section class="search-sect">
+        <div class="container no-padds">
+            <h3>Premium WordPress Themes, Web Templates and Many More...</h3>
+            <form>
+                <input type="text" placeholder="Search Your Keywords...">
+                <button type="submit" class="search-icon"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </section>
+        <!-- Breadcrumbs -->
+    <div class="container">
+        <div class="row">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Product Page</li>
+                </ol>
+            </nav>
+        </div>  
+    </div>
+
+
+    <section class="after-breadcrumbs">
+        <div class="container container-main">
+            <div class="row">
+                <main class="col-9 order-2">
+
+                    <div class="sort no-padds d-flex justify-content-between">
+                        <div class="sort-items">
+                            <i class="fas fa-sort-amount-down"></i>
+                            <span class="sort-by">Sort by</span>
+                            <i class="fas fa-sort"></i>
+                        </div>
+                        <div class="display-switch">
+                            <i class="fas fa-th-large"></i>
+                            <i class="fas fa-th-list"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 change-display">
+                            <div class="product-card top-sellers d-flex">
+                                <div class="product-img">
+                                    <img src="img/product_cards/pc1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>WISTIA Corporate</h3>
+                                    <span class="product-price">$59</span>
+                                    <h4>WordPress</h4>
+                                    <span class="description">Pimply dummy text of the printing and typesetting industry.</span>
+                                    <div class="sales d-flex">
+                                        <span>Sales</span>
+                                        <span class="quantity">14</span>
+                                    </div>
+                                    <div class="author-info d-flex">
+                                        <span class="img-circle"></span>
+                                        <span class="author-name">PsdBosS</span>
+                                        <span class="rate rate-5">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="quantity">05</span>
+                                        <div class="likes">
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-comment"></i>
+                                            <span class="quantity">10</span>
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-heart"></i>
+                                            <span class="quantity">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 change-display">
+
+                            <div class="product-card top-sellers d-flex">
+                                <div class="product-img">
+                                    <img src="img/product_cards/pc2.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Cartoon Face</h3>
+                                    <span class="product-price">$10</span>
+                                    <h4>Illastration</h4>
+                                    <span class="description">Pimply dummy text of the printing and typesetting industry.</span>
+                                    <div class="sales d-flex">
+                                        <span>Sales</span>
+                                        <span class="quantity">11</span>
+                                    </div>
+                                    <div class="author-info d-flex">
+                                        <span class="img-circle"></span>
+                                        <span class="author-name">Mikestro</span>
+                                        <span class="rate rate-4">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="quantity">05</span>
+                                        <div class="likes">
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-comment"></i>
+                                            <span class="quantity">10</span>
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-heart"></i>
+                                            <span class="quantity">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 change-display">
+                            <div class="product-card top-sellers d-flex">
+                                <div class="product-img">
+                                    <img src="img/product_cards/pc3.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Food Menu</h3>
+                                    <span class="product-price">$15</span>
+                                    <h4>Plugins</h4>
+                                    <span class="description">Pimply dummy text of the printing and typesetting industry.</span>
+                                    <div class="sales d-flex">
+                                        <span>Sales</span>
+                                        <span class="quantity">05</span>
+                                    </div>
+                                    <div class="author-info d-flex">
+                                        <span class="img-circle"></span>
+                                        <span class="author-name">Gimsz</span>
+                                        <span class="rate rate-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="quantity">05</span>
+                                        <div class="likes">
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-comment"></i>
+                                            <span class="quantity">10</span>
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-heart"></i>
+                                            <span class="quantity">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 change-display">
+
+                            <div class="product-card top-sellers d-flex">
+                                <div class="product-img">
+                                    <img src="img/product_cards/pc4.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Grand Ballet - Dance</h3>
+                                    <span class="product-price">$12</span>
+                                    <h4>PSD Template</h4>
+                                    <span class="description">Pimply dummy text of the printing and typesetting industry.</span>
+                                    <div class="sales d-flex">
+                                        <span>Sales</span>
+                                        <span class="quantity">10</span>
+                                    </div>
+                                    <div class="author-info d-flex">
+                                        <span class="img-circle"></span>
+                                        <span class="author-name">Greenta9</span>
+                                        <span class="rate rate-5">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="quantity">05</span>
+                                        <div class="likes">
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-comment"></i>
+                                            <span class="quantity">10</span>
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-heart"></i>
+                                            <span class="quantity">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 change-display">
+                            <div class="product-card top-sellers d-flex">
+                                <div class="product-img">
+                                    <img src="img/product_cards/pc5.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Mockup Design</h3>
+                                    <span class="product-price">$12</span>
+                                    <h4>PSD Template</h4>
+                                    <span class="description">Pimply dummy text of the printing and typesetting industry.</span>
+                                    <div class="sales d-flex">
+                                        <span>Sales</span>
+                                        <span class="quantity">02</span>
+                                    </div>
+                                    <div class="author-info d-flex">
+                                        <span class="img-circle"></span>
+                                        <span class="author-name">D9ten</span>
+                                        <span class="rate rate-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="quantity">05</span>
+                                        <div class="likes">
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-comment"></i>
+                                            <span class="quantity">10</span>
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-heart"></i>
+                                            <span class="quantity">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 change-display">
+                            <div class="product-card top-sellers d-flex">
+                                <div class="product-img">
+                                    <img src="img/product_cards/pc6.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Responsive APP</h3>
+                                    <span class="product-price">$20</span>
+                                    <h4>Site Template</h4>
+                                    <span class="description">Pimply dummy text of the printing and typesetting industry.</span>
+                                    <div class="sales d-flex">
+                                        <span>Sales</span>
+                                        <span class="quantity">14</span>
+                                    </div>
+                                    <div class="author-info d-flex">
+                                        <span class="img-circle"></span>
+                                        <span class="author-name">PsdBosS</span>
+                                        <span class="rate rate-4">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="quantity">05</span>
+                                        <div class="likes">
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-comment"></i>
+                                            <span class="quantity">10</span>
+                                            <span class="delimiter">|</span>
+                                            <i class="far fa-heart"></i>
+                                            <span class="quantity">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <nav>
+                            <ul class="pagination text-center">
+                                <li class="page-item active">1</li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <br><span class="aside-visibility">open aside content</span>
+                </main>
+
+                <aside class="col-lg-3">
+                    <span class="aside-visibility">&times;</span>
+                    <section class="categories sidebar-sect">
+                        <div class="sidebar-content">
+                            <h2>Categories</h2>
+
+                            <nav>
+                                <ul>
+                                    <li><a href=""><i class="fas fa-angle-right"></i> <span>WordPress</span> <span class="grey-info">150</span></a></li>
+                                    <li><a href=""><i class="fas fa-angle-right"></i> <span>Joomla</span> <span class="grey-info">100</span></a></li>
+                                    <li><a href=""><i class="fas fa-angle-right"></i> <span>PSD</span> <span class="grey-info">50</span></a></li>
+                                    <li><a href=""><i class="fas fa-angle-right"></i> <span>Plugins</span> <span class="grey-info">60</span></a></li>
+                                    <li><a href=""><i class="fas fa-angle-right"></i> <span>Components</span> <span class="grey-info">40</span></a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+
+
+
+                    </section>
+
+                    <section class="price-range sidebar-sect">
+                        <div class="sidebar-content">
+                            <h2>Price range</h2>
+                            <!--TODO: RANGE -->
+                            <button type="submit" class="btn-block btn-green btn-side">Search</button>
+                        </div>
+
+
+                    </section>
+
+                    <section class="top-sellers sidebar-sect">
+                        <div class="sidebar-content">
+                            <h2>Top 10 Sellers</h2>
+                            <div class="seller-product">
+                                <img src="img/product_cards/pc1.jpg" alt="Enter your image">
+                                <h3>The Post Grid Pro</h3>
+                                <span class="product-price">$40</span>
+                                <h4>Wordpress Plugin</h4>
+
+                                <div class="author-info">
+                                    <span class="img-circle"></span>
+                                    <span class="author-name">PsdBosS</span>
+
+
+                                    <!-- STAR RATING -->
+                                    <span class="rate rate-4">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div class="seller-product">
+                                <img src="img/product_cards/pc2.jpg" alt="Enter your image">
+                                <h3>Responsive App</h3>
+                                <span class="product-price">$20</span>
+                                <h4>Wordpress Plugin</h4>
+
+                                <div class="author-info">
+                                    <span class="img-circle"></span>
+                                    <span class="author-name">Mikc Art</span>
+
+                                    <!-- STAR RATING -->
+                                    <span class="rate rate-5">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                            <div class="seller-product">
+                                <img src="img/product_cards/pc11.jpg" alt="Enter your image">
+                                <h3>The Post Grid Pro</h3>
+                                <span class="product-price">$12</span>
+                                <h4>Wordpress Plugin</h4>
+
+                                <div class="author-info">
+                                    <span class="img-circle"></span>
+                                    <span class="author-name">Greenta9</span>
+
+                                    <!-- STAR RATING -->
+                                    <span class="rate rate-4">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                            <button class="btn-block btn-green btn-side">View all</button>
+
+                        </div>
+
+                    </section>
+                </aside>
+                <div class="overlay"></div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="container no-padds">
+            <div class="footer-menu row flex-wrap justify-content-between">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h2>About Company</h2>
+                    <p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
+                    <div class="contact">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://goo.gl/maps/9gNUBW3ogvE2" class="map-link">PO Box 16122 Collins Street West Victoria 8007 Australia</a>
+                    </div>
+                    <div class="contact">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+61383766284" class="phone-link">+61 3 8376 6284</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h2>Join Our Community</h2>
+                    <nav>
+                        <ul>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Home</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Forums</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Become an Author</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Community Meetups</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Become an Affiliate</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h2>Need Help?</h2>
+                    <nav>
+                        <ul>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Help Center</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Foxtar Market Terms</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Author Terms</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Foxtar Licenses</a></li>
+                            <li><a href=""><i class="fas fa-angle-right"></i>Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h2>Follow Us On</h2>
+                    <div class="social-icons">
+                        <a href=""><i class="icon icon-sm-facebook"></i></a>
+                        <a href=""><i class="icon icon-sm-twitter"></i></a>
+                        <a href=""><i class="icon icon-sm-youtube"></i></a>
+                        <a href=""><i class="icon icon-sm-pinterest"></i></a>
+                        <a href=""><i class="icon icon-sm-in"></i></a>
+                    </div>
+                    <h3>Newsletter Sign Up!</h3>
+                    <form >
+                        <input type="text" name="user_mail" placeholder="E-mail Address"class="shadow">
+                        <button type="submit" class="btn input-btn btn-green"><i class="fas fa-location-arrow"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
+        </div>
+    </footer>
+
+    <!--  jQuery  -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/columns.js"></script>
+    <script src="js/fivestar.js"></script>
+</body>
+
+</html>

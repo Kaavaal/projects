@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Foxtar | Market Place</title>
+		<!-- GRID -->
+		<link rel="stylesheet" href="css/grid.css">
+		<!-- NORMALIZE -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<!-- COMPONENTS headers -->
+		<link rel="stylesheet" href="css/components/h.css">
+		<!-- JQuery form styler -->
+		<link rel="stylesheet" href="css/components/select.css">
+		<!-- COMPONENTS 1)personal-info-form 2)buttons -->
+		
+		<link rel="stylesheet" href="css/components/btn.css">
+		
+		<!-- THIS CSS -->
+		<link rel="stylesheet" href="css/components/personal-info-form.css">
+
+		
+		
+		<!-- FLEX -->
+		<link rel="stylesheet" href="css/flex.css">
+		<!--GOOGLE FONTS-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+		
+	</head>
+	<body>
+		<h1 style="margin-left: 200px">PERSONAL INFO FORM</h1>
+		<br>
+		<div class="container d-flex">
+			
+			<div class="col-9 form-container">
+				<h2>Personal Information</h2>
+				<form action="" class="personal-info-form d-flex flex-wrap flex-column">
+					<div class="input-wrapper d-flex">
+						<label for="_FIRST_NAME">First Name</label>
+						<input type="text" name="first-name" id="_FIRST_NAME">
+					</div>
+					<div class="input-wrapper d-flex">
+						<label for="_LAST_NAME">Last Name</label>
+						<input type="text" name="first-name" id="_LAST_NAME">
+					</div>
+					<div class="input-wrapper d-flex">
+						<label for="_COMPANY_NAME">Company Name</label>
+						<input type="text" name="first-name" id="_COMPANY_NAME">
+					</div>
+					<!-- TODO: SELECT -->
+					<div class="input-wrapper d-flex">
+						<span class="select-label">Country</span>
+						<div class="select d-flex">
+							<select name="categories" id="_COUNTRY">
+								<option value="n-1" disabled selected>Select file type</option>
+								<option value="n-2">Item 1</option>
+								<option value="n-3">Item 2</option>
+								<option value="n-4">Item 3</option>
+							</select>
+						</div>
+					</div>
+					
+					
+					<div class="input-wrapper d-flex">
+						<label for="_ADDRESS_LINE_1">Address Line 1</label>
+						<input type="text" name="first-name" id="_ADDRESS_LINE_1">
+					</div>
+					<div class="input-wrapper d-flex">
+						<label for="_ADDRESS_LINE_2">Address Line 2</label>
+						<input type="text" name="first-name" id="_ADDRESS_LINE_2">
+					</div>
+					<div class="input-wrapper d-flex">
+						<label for="_CITY">City</label>
+						<input type="text" name="first-name" id="_CITY">
+					</div>
+					<div class="input-wrapper d-flex">
+						<label for="_STATE">State / Province / Region</label>
+						<input type="text" name="first-name" id="_STATE">
+					</div>
+					<div class="input-wrapper d-flex">
+						<label for="_ZIP">Zip / Postal Code</label>
+						<input style="margin-bottom: 0" type="text" name="first-name" id="_ZIP">
+					</div>
+					<div class="btn-update-wrapper">
+						<button type="submit" class="btn-green btn-s">Update</button>
+					</div>
+					
+					
+					
+				</form>
+				
+			</div>
+			
+		</div>
+		<!-- Form styler scripts -->
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/jquery.formstyler.min.js"></script>
+		<script src="js/form-styler.js"></script>
+	</body>
+</html>

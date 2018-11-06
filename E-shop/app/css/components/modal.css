@@ -1,0 +1,98 @@
+ button{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background: #ddd;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+button:hover {
+    background: #eee;
+}
+
+
+.modal-container {
+    height: 0;
+    overflow: hidden;
+}
+
+.modal-container .modal-form {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 999;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.modal-container form {
+    position: relative;
+    max-height: 90vh;
+    max-width: 95vw;
+    width: 730px;
+    margin: auto;
+    padding: 90px 165px;
+    background: #8bc34a;
+    -webkit-transform: scale(.75);
+    transform: scale(.75);
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+    overflow-y: auto;
+}
+
+.modal-container .modal-form.modal {
+    position: fixed;
+}
+
+.modal-container .modal-form.modal.active {
+    opacity: 1;
+}
+
+.modal-container .modal-form.modal.active form {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.modal-container .close {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.modal-container .close:hover {
+    background: $color-accent;
+    color: $bg-base;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+/* DEMO PURPOSES ONLY */
+p span{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+p span:hover{
+	background-color: #eee; 
+}
+/* ------------------- */
+
+.modal-container{
+	height: 0;
+	overflow: hidden;
+}
+
+.modal-container .modal-form{
+	position: static;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.6);
+	z-index: 999;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+.modal-container form{
+	position: relative;
+	max-height: 90vh;
+	max-width: 95vw;
+	width: 730px;
+	margin: auto;
+	padding: 90px 165px;
+	background: #8bc34a;
+	-webkit-transform: scale(.75);
+	transform: scale(.75);
+	-webkit-transition: -webkit-transform .3s;
+	transition: -webkit-transform .3s;
+	transition: transform .3s;
+	transition: transform .3s, -webkit-transform .3s;
+	overflow-y: auto;
+}
+
+.modal-container .modal-form.modal{
+	position: fixed;
+}
+
+.modal-container .modal-form.modal.active{
+	opacity: 1;
+}
+
+.modal-container .modal-form.modal.active form{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}

@@ -1,0 +1,164 @@
+.upload-main {
+    overflow: hidden;
+}
+
+.form-container{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	padding: 0;
+
+}
+
+.form-container h2{
+	padding: 24px 33px;
+	font-size: 24px;
+	font-weight: 600;
+	border-bottom: 1px solid #dedede;
+	margin-bottom: 44px;
+}
+
+.upload-products .input-wrapper {
+	margin-bottom: 20px;
+	align-items: baseline;
+}
+
+.upload-products .jq-selectbox__select {
+	margin-bottom: 0;
+	padding: 10px 17px;
+}
+
+.upload-products .jq-selectbox {
+	width: 100%;
+}
+
+.upload-products .jq-selectbox__dropdown {
+	width: 100%;
+}
+
+.upload-products select,
+.upload-products input{
+	width: 899px;
+	height: 39px;
+	background-color: #f9f9f9;
+	border: 1px solid #dedede;
+	margin-left: auto;
+	margin-right: 48px;
+	font-size: 15px;
+	color: #707070;
+	padding-left: 18px;
+}
+
+.upload-products textarea{
+	width: 899px;
+	height: 149px;
+	margin-right: 48px;
+	background-color: #f9f9f9;
+	border: 1px solid #dedede;
+	font-size: 15px;
+	color: #707070;
+	padding-left: 10px;
+	padding-top: 12px;
+}
+
+.upload-products label{
+	margin-left: 45px;
+	line-height: 1;
+	font-size: 15px;
+}
+
+.upload-products .rowname{
+	margin-left: 45px;
+	line-height: 1;
+	font-size: 15px;
+}
+
+.upload-products sup{
+	color: #8bc34a;
+	font-size: 24px;
+}
+
+.upload-products .input-file{
+	width: 899px;
+	height: 39px;
+	background-color: #f9f9f9;
+	border: 1px solid #dedede;
+	margin-left: auto;
+	margin-right: 48px;
+}
+
+.upload-products .input-file > label{
+	margin-left: 0;
+	line-height: normal;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+.select{
+	margin-left: auto;
+	margin-right: 48px;
+}
+
+.upload-products button{
+	display: inline-block;
+	width: 124px;
+	margin-top: 22px; /* 42-20 от инпута */
+	margin-bottom: 67px;
+}
+
+.btn-wrapper{
+	margin-left: 219px;
+}
+
+@media (max-width: 1199px) {
+	.upload-products .select, 
+	.upload-products input,
+	.upload-products textarea,
+	.upload-products .input-file{
+		width: 75%;
+	}
+	.upload-products .jq-selectbox__select {
+		width: 100%;
+	}
+	.btn-wrapper {
+    	margin-left: 193px;
+	}
+}
+
+@media (max-width: 991px) {
+	.upload-products .select, 
+	.upload-products input,
+	.upload-products textarea, 
+	.upload-products .input-file {
+		width: 74%;
+		margin-right: 20px;
+	}
+	.upload-products .rowname {
+		margin-left: 20px;
+	}
+	.upload-products .btn-wrapper {
+ 		margin-right: auto;
+ 		margin-left: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.upload-products .input-wrapper {
+		flex-direction: column;
+	}
+	.upload-products .select, 
+	.upload-products input,
+	.upload-products textarea, 
+	.upload-products .input-file {
+		width: 90%;
+		margin-right: auto;
+	}
+	.upload-products .rowname {
+		margin-right: auto;
+		padding-bottom: 10px;
+	}
+
+}
+
+
+
+

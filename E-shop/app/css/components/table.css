@@ -1,0 +1,60 @@
+h1 {
+    font-size: 36px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.table-wrapper{
+    padding: 35px 36px 80px 42px;
+    background: #fff;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    color: #333;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    white-space: nowrap;
+}
+
+th {
+    padding: 25px 105px 25px 0;
+    background: #455a64;
+    color: #fff;
+}
+
+td {
+    padding: 25px 0;
+}
+
+tr {
+    border-top: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+    background: #fbfbfb;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    padding: 0 20px 0 25px;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: left;
+    padding-top: 80px;
+    color: #263238;
+    font-size: 30px;
+}
+
+caption::after {
+    content: '$5,030';
+    color: #8bc34a;
+}

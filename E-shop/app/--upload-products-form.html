@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Foxtar | Market Place</title>
+	<!-- GRID -->
+	<link rel="stylesheet" href="css/grid.css">
+
+	<!-- NORMALIZE -->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- DEFAULT -->
+	<link rel="stylesheet" href="css/default.css">
+
+	<!-- COMPONENTS 1)upload-products form 2)buttons 3)select 4)input-file -->
+	<link rel="stylesheet" href="css/components/upload-products-form.css">
+	<link rel="stylesheet" href="css/components/btn.css">
+	<link rel="stylesheet" href="css/components/select.css">
+	<link rel="stylesheet" href="css/components/input-file.css">
+
+	<!-- JQuery form styler -->
+	<link href="css/jquery.formstyler.css" rel="stylesheet" />
+	<link href="css/jquery.formstyler.theme.css" rel="stylesheet" />
+
+	<!-- FLEX -->
+	<link rel="stylesheet" href="css/flex.css">
+
+	<!--GOOGLE FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet"> 
+	
+</head>
+
+<body>
+	<h1 style="margin-left: 200px">UPLOAD PRODUCTS FORM</h1>
+	<br>
+	<div class="container d-flex no-padds">
+		
+		<div class="col-12 form-container">
+			<h2>Upload Your Item</h2>
+
+			<form action="" class="upload-products d-flex flex-wrap flex-column">
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Select Categories<sup>*</sup></span>
+					<div class="select">
+						
+						<select name="categories" id="_CATEGORIES">
+							<option value="n-1" disabled selected>Select your option</option>
+							<option value="n-2">Item 1</option>
+							<option value="n-3">Item 2</option>
+							<option value="n-4">Item 3</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Product Name<sup>*</sup></span>
+					<input type="text" name="product-name" id="_PRODUCT_NAME" placeholder="Enter your product name here...">
+				</div>
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Product Description<sup>*</sup></span>
+					<textarea class="ml-auto" name="product-desc" id="_PRODUCT_DESC">&nbsp&lth1&gt Type your text here &lth1&gt</textarea>
+				</div>
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Upload Main File<sup>*</sup></span>
+					<div class="input-file">
+					
+						<input type="file" id="_UPLOAD_MAIN">
+						<label class="hidden-label" for="_UPLOAD_MAIN">Choose File</label>
+						<span>No File Chosen</span>
+					</div>
+				</div>
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Upload Screenshots<sup>*</sup></span>
+					<div class="input-file">
+					
+						<input type="file" id="_UPLOAD_SCREENSHOT">
+						<label class="hidden-label" for="_UPLOAD_SCREENSHOT">Choose File</label>
+						<span>No File Chosen</span>
+					</div>
+				</div>
+
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">File Included<sup>*</sup></span>
+					<div class="select d-flex">
+						
+						<select name="categories" id="_FILE_INCLUDED">
+							<option value="n-1" disabled selected>Select file type</option>
+							<option value="n-2">Item 1</option>
+							<option value="n-3">Item 2</option>
+							<option value="n-4">Item 3</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">File Dimensions<sup>*</sup></span>
+					<input type="text" name="product-name" id="_FILE_DIM" placeholder="Enter the item dimensions here...">
+				</div>
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Item Tags<sup>*</sup></span>
+					<input type="text" name="product-name" id="_PRODUCT_TAGS" placeholder="Enter Tag Here">
+				</div>
+			</form>
+
+			<h2 style="margin-top: 26px">Set Your Price (US$)</h2>
+
+			<form action="" class="upload-products d-flex flex-wrap flex-column">
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Regular License<sup>*</sup></span>
+					<input type="text" name="product-name" id="_REGULAR_LICENSE" placeholder="$00.00">
+				</div>
+
+				<div class="input-wrapper d-flex">
+					<span class="rowname">Extended License<sup>*</sup></span>
+					<input type="text" name="product-name" id="_EXTENDED_LICENSE" placeholder="$00.00">
+				</div>
+				<div class="btn-wrapper">
+					<button type="submit" class="btn btn-sm btn-green">Submit</button>
+				</div>
+				
+			</form>
+		</div>
+		
+	</div>
+
+	<!-- Form styler scripts -->
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/jquery.formstyler.min.js"></script>
+	<script src="js/form-styler.js"></script>
+	
+</body>
+</html>

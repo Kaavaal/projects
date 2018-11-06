@@ -1,0 +1,220 @@
+
+/* Для тестирования, при использовании стилей - стереть! */
+body{
+	background-color: #f4f6f5;
+}
+/*-------------------------------------------------------*/
+body{
+	font-family: Roboto;
+	
+}
+
+.settings-main {
+	-webkit-box-ordinal-group: 3;
+	-ms-flex-order: 2;
+	order: 2;
+}
+
+.form-container{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	padding: 0;
+
+}
+
+.form-container h2{
+	padding: 24px 33px;
+	font-size: 24px;
+	font-weight: 600;
+	border-bottom: 1px solid #dedede;
+}
+
+.personal-info-form{
+	padding-top: 15px; /* 20 от заголовка + 15 = 35 (по макету) */
+
+}
+
+.personal-info-form .input-wrapper {
+	margin-bottom: 20px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.personal-info-form .jq-selectbox__select {
+	margin-bottom: 0;
+	padding: 10px 17px;
+}
+
+.personal-info-form .jq-selectbox__dropdown {
+	width: 94%;
+}
+
+.personal-info-form label{
+	margin-left: 38px;
+	line-height: 1;
+	font-size: 15px;
+}
+
+.personal-info-form input{
+	height: 38px;
+	width: 538px;
+	background-color: #f9f9f9;
+	border: 1px solid #dedede;
+	margin-left: auto;
+	margin-right: 36px;
+}
+
+.personal-info-form form input:last-child{
+	margin-bottom: 0;
+}
+
+.personal-info-form .btn-update-wrapper{
+	margin-left: 293.5px;
+}
+.personal-info-form button{
+	display: inline-block;
+	margin-top: 25px;
+	width: 108px;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	margin-bottom: 80px;
+}
+
+.personal-info-form select{
+	display: none;
+}
+
+.personal-info-form .select-label{
+	margin-left: 38px;
+	line-height: 1;
+	font-size: 15px;
+}
+
+.personal-info-form .select{
+	margin-left: auto;
+	margin-right: 36px;
+	width: 538px;
+}
+
+.personal-info-form .jq-selectbox {
+	width: 100%;
+}
+
+.personal-info-form .jq-selectbox__dropdown {
+	width: 100%;
+}
+
+@media (max-width: 1199px) {
+	.personal-info-form input {
+		width: 65%;
+	}
+	.personal-info-form .select {
+		width: 65%;
+	}
+	.personal-info-form .btn-update-wrapper {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.personal-info-form .jq-selectbox__select {
+		padding: 10px 17px;
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 991px) {
+	.settings-item .aside-tabs {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+
+	}
+	.settings-item .aside-tabs > li {
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		text-align: center;
+	}
+	.settings-item .aside-tabs li + li a {
+		border-top: none;
+		border-left: 1px solid #d7d7d7;
+	}
+	.settings-item .aside-tabs i {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+	.settings-main {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.settings-item .aside-tabs i {
+		margin-right: 5px;
+	}
+	.personal-info-form label {
+		margin-left: 15px;
+	}
+	.personal-info-form .select-label {
+		margin-left: 15px;
+	}
+	.personal-info-form input {
+		margin-right: 15px;
+		width: 63%;
+	}
+	.personal-info-form .select {
+		margin-right: 15px;
+		width: 63%;
+	}
+}
+
+@media (max-width: 575px) {
+	.settings-item .aside-tabs {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.settings-item .aside-tabs li + li a {
+		border-top: 1px solid #d7d7d7;
+		border-left: none;
+	}
+	.settings-item .aside-tabs i {
+		margin-right: 15px;
+	}
+	.personal-info-form label {
+		font-size: 13px;
+	}
+	.personal-info-form .select-label {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 480px) {
+	.personal-info-form .input-wrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.personal-info-form input {
+		width: 90%;
+		margin-left: auto;
+	}
+	.personal-info-form label {
+		font-size: 15px;
+		margin-right: auto;
+		padding-bottom: 10px;
+	}
+	.personal-info-form .select {
+		width: 90%;
+		margin-left: auto;
+	}
+	.personal-info-form .select-label {
+		font-size: 15px;
+		margin-right: auto;
+		padding-bottom: 10px;
+	}
+}

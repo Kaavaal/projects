@@ -1,0 +1,43 @@
+body{
+	font-family: Roboto;
+}
+
+
+.sect-about-us .container{
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+}
+
+.sect-about-us h1{
+	font-size: 24px;
+	font-weight: 500;
+	padding-left: 33px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #d7d7d7;
+	
+}
+
+.sect-about-us .about-us-content{
+	padding-right: 65px;
+	padding-top: 44px;
+	padding-left: 50px;
+	padding-bottom: 54px;
+}
+
+.sect-about-us h2{
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.sect-about-us p{
+	font-size: 15px;
+	color: #707070;
+	line-height: 24px;
+	margin-bottom: 55px;
+}
+
+.sect-about-us{
+	padding-bottom: 120px; /* Overwrite standart paddings in section.css */
+}

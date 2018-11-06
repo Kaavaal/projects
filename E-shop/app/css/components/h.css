@@ -1,0 +1,145 @@
+
+p {
+	font-size: 20px;
+	color: #8bc34a;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #263238;
+}
+
+h1.other {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 63px;
+}
+.title {
+	border-bottom: 1px solid #dde3e8;
+	margin-bottom: 33px;
+}
+
+h1.main {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+h1.product-name {
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+h1.about-me {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+h2.main {
+	font-size: 36px;
+	margin-bottom: 60px;
+}
+
+h2.footer-h {
+	font-size: 22px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+h2.footer-h::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 51px;
+	background: #8bc34a;
+}
+
+h2.aside-h {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #dde3e8;
+}
+
+h2.product-name {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+h2.message {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.title-border {
+	background: #fff;
+	border: 1px solid #dde3e8;
+	padding-left: 27px;
+}
+
+h2.other {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 60px;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+h3.white-green {
+	background: #263238;
+	color: #fff;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+h3.white-green:hover {
+	color: #8bc34a;
+}
+
+h3.center {
+	font-weight: 700;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+h3.product-name {
+	font-size: 18px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+h3.footer-h {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+h3.aside-h {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h3.other {
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}

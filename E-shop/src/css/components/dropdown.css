@@ -1,0 +1,57 @@
+
+
+
+
+
+
+    /*.active вместо ховер*/
+
+
+/* DEMO PURPOSES ONLY */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+code {
+    display: inline-block;
+    background: #ddd;
+    padding: 2px 4px; 
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 1.1em;
+}/*
+.dropdown-body {
+    background: #f8f8f8;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #999;
+    font-size: 1.25rem;
+}
+.dropdown > .dropdown-hover {
+    background: #f8f8f8;
+    border: 1px solid #999;
+    border-top: 0;
+    padding: 1rem 1.5rem;
+}
+/**
+ *  Из-за использования границы у .dropdown
+ *  нужно уменьшить горизонтальную позицию
+ *  выпадающего элемента на толщину этой границы.
+ */
+
+ /*
+.dropdown-hover {
+    left: -1px;
+}
+.dropdown.reverse > .dropdown-hover {
+    right: -1px;
+}
+*/

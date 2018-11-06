@@ -1,0 +1,54 @@
+/* DEMO PURPOSES ONLY */
+p span{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+p span:hover{
+	background-color: #eee; 
+}
+/* ------------------- */
+
+.modal-container{
+	height: 0;
+	overflow: hidden;
+}
+
+.modal-container .modal-form{
+	position: static;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.6);
+	z-index: 999;
+	transition: opacity .3s;
+}
+
+.modal-container form{
+	position: relative;
+	max-height: 90vh;
+	max-width: 95vw;
+	width: 730px;
+	margin: auto;
+	padding: 90px 165px;
+	background: #8bc34a;
+	transform: scale(.75);
+	transition: transform .3s;
+	overflow-y: auto;
+}
+
+.modal-container .modal-form.modal{
+	position: fixed;
+}
+
+.modal-container .modal-form.modal.active{
+	opacity: 1;
+}
+
+.modal-container .modal-form.modal.active form{
+	transform: scale(1);
+}

@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Header</title>
+        <!--FONTAWESOME-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+        <!--GOOGLE FONTS-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+        <!--GRID-->
+        <link rel="stylesheet" href="css/grid.css">
+        <!-- FLEX -->
+        <link rel="stylesheet" href="css/flex.css">
+
+        <!-- Product Card -->
+        <link rel="stylesheet" href="css/components/product-card.css">
+
+        <!--  COMPONENTS Carousel  -->
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/components/carousel.css" rel="stylesheet">
+
+        <!-- Header w/o login -->
+        <link rel="stylesheet" href="css/components/header.css">
+      
+     
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="css/style.min.css">
+
+        <!-- Responsive Fix -->
+        <link rel="stylesheet" href="css/responsive-index-fix.css">
+    </head>
+    <body class="front">
+        <header style="background-color: #fff;">
+            <div class="container header-top-2">
+                <div class="row align-items-center">
+                    <div class="logo">
+                        <img src="img/logo.png">
+                    </div>
+                    <span class="need-help">Need help?</span>
+                    <span class="talk-expert"> Talk to an expert: +61 3 8376 6284</span>
+                    <div class="dropdown reverse">
+                        <div class="header-icon cart-icon dropdown-body"><i class="main fas fa-shopping-cart"></i></div>
+                        <!-- Dropdown 3 start -->
+                        <ul class="dropdown-hover icon-dropdown basket">
+                            <li>
+                                <a href="" class="dropdown-a">
+                                    <span class="user-photo square">
+                                        <!-- TODO: INSERT PRODUCT IMAGE (IMG-SQUARE) -->
+                                        <img src="" alt="">
+                                    </span>
+                                    <span class="user-name">
+                                        <span class="about">Grand Ballet</span>
+                                        <span class="help">WordPress</span>
+                                        <span class="price">$59</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-a">
+                                    <span class="user-photo square">
+                                        <!-- TODO: INSERT PRODUCT IMAGE (IMG-SQUARE) -->
+                                        <img src="" alt="">
+                                    </span>
+                                    <span class="user-name">
+                                        <span class="about">Apple Device</span>
+                                        <span class="help">WordPress</span>
+                                        <span class="price">$59</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="dropdown-a dropdown-btn">
+                                    <div class="total">
+                                        <span class="total-text">Total</span>
+                                        <span>$118</span>
+                                    </div>
+                                    <a href="#" class="btn btn-s btn-s-1 btn-green">Go to Cart</a>
+                                    <a href="#" class="btn btn-s btn-s-2 btn-red">Go to Checkout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="modal-login-open btn btn-xs btn-green">Login</button>
+                    <a class="btn btn-xs btn-red" href="">Register</a>
+                </div>
+            </div>
+            <div class="container-fluid header-nav no-padds">
+                <div class="container">
+                    <div class="row">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="product-details.html">WordPress</a></li>
+                                <li><a href="product-details.html">Joomla</a></li>
+                                <li><a href="product-details.html">PSD</a></li>
+                                <li><a href="">Plugins</a></li>
+                                <li><a href="">Components</a></li>
+                                <li><a href="">Pages</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="">Help</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="search-sect">
+            <div class="container-fluid no-padds">
+                <h1>Welcome To Foxtar Market Place!</h1>
+                <h3>Premium WordPress Themes, Web Templates and Many More...</h3>
+                <form>
+                    <input type="text" placeholder="Search Your Keywords...">
+                    <button type="submit" class="search-icon"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </section>
+        <!-- MODAL -->
+        <div class="modal-container">
+            <div id="modal-form-login" class="modal-form">
+                <form onsubmit="logIn()">
+                    <h1>Login</h1>
+                    <input type="text" placeholder="Name" name="user-name">
+                    <input type="password" placeholder="Password" name="user-password">
+                    <button class="btn" type="submit">Submit</button>
+                    <a class="btn btn-account" href=""><i class="fas fa-edit"></i>Create An Account?</a>
+                    <a class="lost" href="">Lost Password?</a>
+                </form>
+            </div>
+        </div>
+        <section class="lets-check sect-style off-white">
+            <div class="title">
+                <h2>Let's Check Out Newest Release Products</h2>
+            </div>
+            <div class="d-flex">
+                <ul class="nav-tabs d-flex mx-auto check-out-tabs" role="tablist">
+                    <li class="nav-item"><a href="#check-out-tab1" class="nav-link active">All</a></li>
+                    <li class="nav-item"><a href="#check-out-tab2" class="nav-link">WordPress</a></li>
+                    <li class="nav-item"><a href="#check-out-tab3" class="nav-link">Joomla</a></li>
+                    <li class="nav-item"><a href="#check-out-tab4" class="nav-link">Plugins</a></li>
+                    <li class="nav-item"><a href="#check-out-tab5" class="nav-link">Component</a></li>
+                    <li class="nav-item"><a href="#check-out-tab6" class="nav-link">PSD</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="check-out-tab1">
+                    <div class="flex-container d-flex">
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc10.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main new top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc1.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc11.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc12.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-container d-flex">
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc13.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc14.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main new top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc15.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc16.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+
+        </div>
+                </div>
+                    <div class="tab-pane" id="check-out-tab2"><div class="flex-container d-flex">
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc2.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main new top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc3.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc4.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc5.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-container d-flex">
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc6.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc7.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main new top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc8.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc9.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+
+        </div>
+                </div>
+                    <div class="tab-pane" id="check-out-tab3"><div class="flex-container d-flex">
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc10.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main new top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc11.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc21.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc22.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-container d-flex">
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc23.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc16.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main new top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc20.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc14.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+
+        </div>
+                </div>
+                    <div class="tab-pane" id="check-out-tab4"><div class="flex-container d-flex">
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc7.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main new top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc23.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc28.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc15.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-container d-flex">
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc19.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc10.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main new top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc6.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc3.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+
+        </div>
+                </div>
+                    <div class="tab-pane" id="check-out-tab5"><div class="flex-container d-flex">
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc2.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main new top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc23.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc7.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc13.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-container d-flex">
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc11.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc1.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main new top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc4.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc9.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+
+        </div>
+                </div>
+                    <div class="tab-pane" id="check-out-tab6"><div class="flex-container d-flex">
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc24.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main new top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc19.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc8.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc10.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-container d-flex">
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc2.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc13.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main new top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc9.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+            <div class="product-card product-card-main top-sellers">
+                <div class="product-img">
+                    <img src="img/product_cards/pc4.jpg" alt="">
+                </div>
+                <h3>Doll Face</h3>
+                <span class="product-price">$10</span>
+                <h4>Illsatration</h4>
+                <div class="author-info">
+                    <span class="img-circle"></span>
+                    <span class="author-name">Mikc Art</span>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="quantity">05</span>
+                </div>
+            </div>
+
+
+        </div>
+                </div>
+                
+                </div>
+                
+                <div class="two-btns" align="center">
+                    <a href="all-new-items.html" class="btn btn-xl">All New Items</a>
+                    <a href="" class="btn btn-xl">Popular Items</a>
+                </div>
+            </section>
+            <section class="trending-products sect-style">
+                <div class="title">
+                    <h2>This Week Trending Products</h2>
+                </div>
+                <div class="container-fluid">
+                    <div class="owl-carousel">
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc1.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc2.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc3.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc4.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc5.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc6.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc7.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc8.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc9.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc10.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc11.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc12.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc13.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc14.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc15.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+
+                        <div class="product-card product-card-main top-sellers" style="width: auto; margin: 0;">
+                            <div class="product-img">
+                                <img src="img/product_cards/pc16.jpg" alt="">
+                            </div>
+                            <h3>Doll Face</h3>
+                            <span class="product-price">$10</span>
+                            <h4>Illsatration</h4>
+                            <div class="author-info">
+                                <span class="img-circle"></span>
+                                <span class="author-name">Mikc Art</span>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="quantity">05</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="choose-us">
+                <div class="title">
+                    <h2 class="sect-title" align="center">Why You Choose Foxtar Market Place?</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 choose-item">
+                            <img src="img/placeholder-rounded.png" alt="Easy buy & sell">
+                            <h3>Easily Buy And Sell</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, mollitia aut eaque nihil eos rem suscipit error id nesciunt?</p>
+                        </div>
+                        <div class="col-4 choose-item">
+                            <img src="img/placeholder-rounded.png" alt="Easy buy & sell">
+                            <h3>Quality Products</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, mollitia aut eaque nihil eos rem suscipit error id nesciunt?</p>
+                        </div>
+                        <div class="col-4 choose-item">
+                            <img src="img/placeholder-rounded.png" alt="Easy buy & sell">
+                            <h3>100% Secure Payment</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, mollitia aut eaque nihil eos rem suscipit error id nesciunt?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container" style="padding-top: 120px">
+                <div class="row flex-column contact-us">
+                    <div class="title pad-39">
+                        <h1>contact with us</h1>
+                    </div>
+                    <div class="pad-39">
+                        <div class="contact-us-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d50428.82209772963!2d144.95728!3d-37.818121!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-37.818121!2d144.9572797!5e0!3m2!1sru!2sus!4v1522591788819"  frameborder="0" allowfullscreen></iframe>
+                            <div class="map-over">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Our Office</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex pad-39 flex-wrap">
+                        <div class="contact-data col-12 col-md-5 col-lg-4 flex-wrap">
+                            <div>
+                                <h3 class="address">Our Office Address</h3>
+                                <p class="text">PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+                            </div>
+                            <div class="contact-link">
+                                <h3>Phone</h3>
+                                <p class="text"><a href="tel:+61383766284">+61 3 8376 6284</a></p>
+                            </div>
+                            <div class="contact-link">
+                                <h3>E-mail</h3>
+                                <p class="text"><a href="mailto:info@foxtar.com">info@foxtar.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-forma col-12 col-md-7 col-lg-8 no-padds">
+                            <h2>Drop Us A Message</h2>
+                            <form action="" method="">
+                                <div class="row flex-wrap">
+                                    <div class="col-md-12 col-lg-6">
+                                        <input type="text" name="user-name" placeholder="Name*" required class="user-name">
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <input type="text" name="user-email" placeholder="E-mail*" required class="user-email">
+                                    </div>
+                                </div>
+                                <textarea name="user-message" placeholder="Message*" required></textarea>
+                                <button type="submit" class="btn btn-green btn-xl-1">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <footer>
+            <div class="container no-padds">
+                <div class="footer-menu row flex-wrap justify-content-between">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h2>About Company</h2>
+                        <p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
+                        <div class="contact">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="https://goo.gl/maps/9gNUBW3ogvE2" class="map-link">PO Box 16122 Collins Street West Victoria 8007 Australia</a>
+                        </div>
+                        <div class="contact">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+61383766284" class="phone-link">+61 3 8376 6284</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h2>Join Our Community</h2>
+                        <nav>
+                            <ul>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Home</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Forums</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Become an Author</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Community Meetups</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Become an Affiliate</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h2>Need Help?</h2>
+                        <nav>
+                            <ul>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Help Center</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Foxtar Market Terms</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Author Terms</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Foxtar Licenses</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i>Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h2>Follow Us On</h2>
+                        <div class="social-icons">
+                            <a href=""><i class="icon icon-sm-facebook"></i></a>
+                            <a href=""><i class="icon icon-sm-twitter"></i></a>
+                            <a href=""><i class="icon icon-sm-youtube"></i></a>
+                            <a href=""><i class="icon icon-sm-pinterest"></i></a>
+                            <a href=""><i class="icon icon-sm-in"></i></a>
+                        </div>
+                        <h3>Newsletter Sign Up!</h3>
+                        <form >
+                            <input type="text" name="user_mail" placeholder="E-mail Address"class="shadow">
+                            <button type="submit" class="btn input-btn btn-green"><i class="fas fa-location-arrow"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
+            </div>
+        </footer>
+
+
+            <!-- Скрипт модалки -->
+            <!--    <script type="text/javascript">
+            //Form variables
+            var modal_form = document.getElementById("modal-form-login");
+            var _form = modal_form.children[0];
+            var _name = _form.children[1];
+            var _pass = _form.children[2];
+            function logIn(){
+            if(_name.value === "admin" && _pass.value === "12345"){
+            console.log("YOU ARE NOW LOGGED IN");
+            alert("YOU ARE NOW LOGGED IN");
+            }
+            }
+            </script>-->
+            
+            <!-- JQuery -->
+            <script src="js/jquery-3.3.1.slim.min.js"></script>
+             <script src="js/jquery-2.2.4.min.js"></script>
+            <script src="js/jquery.slicknav.min.js"></script>
+            <!-- Owl Carousel 2 -->
+            <script src="js/owl.carousel.min.js"></script>
+            
+            <!-- INIT -->
+            <script src="js/carousel.js"></script>
+            <script src="js/modal.js"></script>
+            <script src="js/init.js"></script>
+            <script src="js/fivestar.js"></script>
+            
+            
+            
+        </body>
+    </html>

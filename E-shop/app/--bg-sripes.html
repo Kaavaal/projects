@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foxtar | Market Place</title>
+
+    <!--  NORMALIZE  -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!--  GRID  -->
+    <link href="css/grid.css" rel="stylesheet">
+
+    <!--  COMPONENTS dropdown  -->
+    <link href="css/components/dropdown.css" rel="stylesheet">
+    
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+        .progress {
+            height: 15px;
+            background: #f4f4f4;
+            position: relative;
+        }
+        .progerss-value {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                55deg,
+                #b5b5b5,
+                #b5b5b5 15px,
+                #cbcbcb 15px,
+                #cbcbcb 30px
+            );
+        }
+        .progerss-value-80 {
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="progress">
+            <div class="progerss-value progerss-value-80"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

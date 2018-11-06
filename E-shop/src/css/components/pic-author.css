@@ -1,0 +1,53 @@
+.user-photo {
+	display: inline-block;
+	overflow: hidden;
+	background: #d4d4d4;
+	border-radius: 50%;
+}
+
+.user-photo img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.user-photo.circle-xs {
+	width: 30px;
+	height: 30px;
+}
+
+.user-photo.circle-sm {
+	width: 34px;
+	height: 34px;
+}
+
+.user-photo.circle-md {
+	width: 48px;
+	height: 48px;
+}
+
+.user-photo.circle-lg {
+	width: 63px;
+	height: 63px;
+}
+
+.user-photo.circle-xl {
+	width: 113px;
+	height: 113px;
+}
+
+.user-photo.square {
+	border-radius: 0;
+	width: 73px;
+	height: 63px;
+}
+
+.user-photo.square img {
+	margin-top: -5px;
+	margin-bottom: -5px;
+}

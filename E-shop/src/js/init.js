@@ -1,0 +1,118 @@
+﻿(function($) {
+
+    $(function() {
+
+        initTabs();
+            //---------------
+        initDropDowns();
+        // initOwlCarousel();
+        initDisplaySwitcher();
+        
+    });
+
+
+
+
+function initDisplaySwitcher(){
+    let displaySwitch = $('.display-switch i');
+    let productCards = $('.change-display');
+        if (!displaySwitch.hasClass('active')){
+            displaySwitch.eq(0).addClass('active');
+            $('body').addClass('display-grid');
+
+        }
+        //Привязка события
+        displaySwitch.on('click', function(){
+            let current = $(this); //this - эл-т,по которому сработало событие
+            if (!current.hasClass('active')) {
+                console.log(current);
+                if(current.hasClass('fa-th-large')){
+                    displaySwitch.removeClass('active');
+                    current.addClass('active');
+                    $('body').removeClass('display-line')
+                    .addClass('display-grid');
+                    //Перестраиваем разметку с col-12 на col-4
+                    for (var i = 0; i < productCards.length; i++){
+                        productCards.eq(i).addClass('col-4');
+                        productCards.eq(i).removeClass('col-12');
+                    }
+                }
+                else{
+                    displaySwitch.removeClass('active');
+                    current.addClass('active');
+                    $('body').removeClass('display-grid')
+                    .addClass('display-line');
+                    //Перестраиваем разметку с col-4 на col-12
+                    for (var i = 0; i < productCards.length; i++){
+                        productCards.eq(i).addClass('col-12');
+                        productCards.eq(i).removeClass('col-4');
+                    }
+
+                }
+
+            }
+        })
+
+}
+
+function initDropDowns(){
+    let dropDown = $('.dropdown-body');
+    let all = $('.dropdown');
+
+    
+    dropDown.on('.click', function(){
+        all.removeClass('active');
+        let current = $(this);
+        current.parent().addClass('active');
+    })
+}
+
+initDropdowns();
+
+function initDropdowns() {
+    let all = $('.dropdown');
+    let dropdown = $('.dropdown-body');
+
+    dropdown.on('click', function(){
+        if ($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+        }
+        else {
+            all.removeClass('active');
+            $(this).parent().addClass('active');
+        }
+    });
+
+}
+
+function initTabs() {
+    let init = $('.nav-tabs, .tab-content');
+    if (init.length == 2) {
+        let navLinks = $('.nav-link');
+        let tabPanes = $('.tab-pane');
+        
+        navLinks.on('click', function(e){
+            e.preventDefault();
+            let current = $(this);
+            if (!current.hasClass('active')) {
+                navLinks.removeClass('active');
+
+                current.addClass('active');
+
+                let activeTab = current.attr('href');
+                let activePane = $(activeTab);
+ 
+                //if (tabPanes.hasClass('fade')) {
+                //    tabPanes.removeClass('show');
+                //    activePane.addClass('show');
+                //}
+                tabPanes.removeClass('active');
+                activePane.addClass('active');
+                
+//console.log(activeTab);
+
+            }
+        });
+    }
+}
+})(jQuery);

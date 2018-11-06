@@ -1,0 +1,5 @@
+@media (max-width: 1040px) {
+    .product-card .product-card-main{
+        display: block;
+    }
+}

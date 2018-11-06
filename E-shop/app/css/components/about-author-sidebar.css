@@ -1,0 +1,105 @@
+
+/* Удалить после получения css картинок авторов */
+.about-author .img-author{
+	width: 73px;
+	height: 63px;
+	background-color: #d4d4d4;
+	display: inline-block;
+}
+
+body{
+	font-family: Roboto;
+}
+/*----------------------------------------------*/
+
+
+.about-author .user-photo{
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.about-author h4{
+	font-size: 18px;
+	padding-bottom: 21px;
+}
+
+.about-author .author-badges{
+	margin-top: 44px;
+	margin-bottom: 39px;
+}
+
+.about-author .online-status{
+	display: inline-block;
+	width: 76px;
+	height: 26px;
+	border: 1px solid #d6d6d6;
+	line-height: 26px;
+	
+}
+
+.about-author .online-wrapper{
+	display: inline-block;
+	vertical-align: middle;
+	/*height: 64px;
+	width: 119px;*/
+}
+
+
+
+.about-author .content-wrapper{
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.about-author .online-status .online-indicator{
+	background-color: #8bbe44;
+	display: inline-block;
+	height: 9px;
+	width: 9px;
+	border-radius: 50%;
+	margin-left: 9px;
+}
+
+.about-author .online-status .online-text{
+	color: #70838d;
+	font-size: 13px;
+	margin-left: 4px;
+}
+.about-author .author-badges .icon + .icon{
+	margin-left: 6px; /* 10 - 4(wordspacing) = 6 */
+}
+
+.about-author{
+	margin-bottom: 24px;
+}
+
+.author-soc{
+	margin-bottom: 26px;
+}
+.author-soc a {
+	display: inline-block;
+}
+
+.author-soc .icon + .icon {
+	margin-left: 3px; /* 7 - 4(wordspacing) = 3 */
+}
+
+aside .btn{
+	margin-bottom: 16px;
+}
+
+aside .btn-green{
+	margin-bottom: 30px;
+}
+aside .btn i {
+	padding-right: 12px;
+}
+
+
+
+
+
+
+
+
+
